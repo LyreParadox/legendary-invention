@@ -1,0 +1,30 @@
+/***TAGS***/
+/*** Color Set:
+#8C696B
+#343638
+#8C3946
+#C27270
+#DDD4CB
+#EBECEA 
+***/
+body {
+   background-color: #EBECEA;
+}
+hr {
+  border-color: #DDD4CB;
+  border-style: none;
+  border-top-style: dotted;  /**Because the border-top-style is more specific than the generalized border-style it will show.**/
+  border-width: 9px;
+  width: 9%;
+}
+h1 {
+  color: #343638;
+}
+h3 {
+  color: #8C3946;
+}
+
+/***CLASSES***/
+.circular {
+  border-radius: 100%;
+}
